@@ -5,6 +5,6 @@ import { candidateExamReducer } from "./slices/candidateExam/candidateExam.slice
 
 export const rootReducer = combineReducers({
   auth: authReducer,
-  exam: examReducer,
-  candidtaeExam: candidateExamReducer,
+  exams: examReducer,
+  candidateExam: candidateExamReducer,
 });
