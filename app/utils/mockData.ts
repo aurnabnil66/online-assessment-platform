@@ -1,4 +1,19 @@
-import { Exam } from "../slices/exam/exam.type";
+import { Exam } from "@/lib/slices/exam/exam.type";
+
+export const MOCK_USERS = {
+  "employer@test.com": {
+    password: "123",
+    role: "EMPLOYER",
+    id: "emp1",
+    name: "John Employer",
+  },
+  "candidate@test.com": {
+    password: "123",
+    role: "CANDIDATE",
+    id: "cand1",
+    name: "Jane Candidate",
+  },
+};
 
 export const mockExams: Exam[] = [
   {
