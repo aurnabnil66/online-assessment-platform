@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { Exam, ExamState } from "@/lib/slices/exam/exam.type";
-import { mockExams } from "@/lib/utils/mockData";
+import { mockExams } from "@/utils/mockData";
 
 const initialState: ExamState = {
   exams: [],
