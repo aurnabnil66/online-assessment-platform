@@ -37,8 +37,13 @@ export const Header = () => {
         </header>
       ) : (
         <header className="h-20 bg-white border-b border-slate-200 flex items-center justify-between px-4 sm:px-8 lg:px-20">
-          <div className="text-2xl font-bold tracking-tight text-indigo-700">
-            AKIJ <span className="text-slate-800 text-lg">RESOURCE</span>
+          <div>
+            <Image
+              src={"/resourceLogoHeader.png"}
+              alt=""
+              height={120}
+              width={120}
+            />
           </div>
           <h1 className="text-xl sm:text-2xl font-semibold text-slate-700">
             Akij Resource
