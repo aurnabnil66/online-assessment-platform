@@ -4,11 +4,7 @@ An online examination platform built with Next.js, Redux Toolkit, and Tailwind C
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-vercel-url.vercel.app)
-
-## 📹 Video Demo
-
-[Watch Demo Video](https://your-video-link.com)
+[View Live Demo](https://online-assessment-platform-brown.vercel.app/)
 
 ## ✨ Features
 
